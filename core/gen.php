@@ -5,9 +5,9 @@
  */
 ob_start();
 
-require_once(dirname(__FILE__).'/../config/config.php'); // 設定関連
-require_once(dirname(__FILE__).'/../libs/session.php'); // セッション関連
-require_once(dirname(__FILE__).'/../libs/db.php'); // DB接続周関連
+require_once($config['configDir'].'config.php'); // 設定関連
+require_once($config['libDir'].'session.php'); // セッション関連
+require_once($config['libDir'].'db.php'); // DB接続周関連
 
 /**
  * メインとなるオブジェクト
@@ -72,5 +72,5 @@ $gen->pdo = db_connect($config);
 
 $gen->load('http');
 $gen->load('view');
-require_once('./libs/helper.php'); //heler
+require_once($config['libDir'].'helper.php'); //heler
 
