@@ -7,5 +7,3 @@ $config['db_password'] = 'dbpassowrd';
 $config['db_dns'] = "mysql:host={$config['db_host']}; dbname={$config['db_name']}";
 $config['libDir'] = './libs/';
 $config['viewDir'] = './views/';
-
-?>
