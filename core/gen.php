@@ -5,6 +5,9 @@
  */
 ob_start();
 
+// 読み込むconfigの設定を環境によって修正してください。
+$config['configDir'] = './config/';
+
 require_once($config['configDir'].'config.php'); // 設定関連
 require_once($config['libDir'].'session.php'); // セッション関連
 require_once($config['libDir'].'db.php'); // DB接続周関連

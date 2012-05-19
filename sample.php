@@ -1,5 +1,4 @@
 <?php
-$config['configDir'] = './config/';
 require_once('core/gen.php');
 // 表示データを格納
 $data = array();
