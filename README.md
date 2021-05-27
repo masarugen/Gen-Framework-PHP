@@ -3,7 +3,7 @@ Gen-Framework-PHP
 
 CodeIgniterを参考にして、作った簡易フレームワーク
 
-<<特徴>>
+### 特徴
 - セキュリティ、全然ダメ
 - DB、pdo
 - view、ピュアPHP
